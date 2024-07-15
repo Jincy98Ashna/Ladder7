@@ -3,15 +3,20 @@ import Banner from './components/banner/Banner';
 import Testimonials from './components/testimonials/Testimonials';
 import Cards from './components/cards/Cards';
 import Skills from './components/skills/Skills'
+import Navbar from './components/navbar/Navbar';
+import Industry from './components/industry/Industry';
 
 
 function App() {
   return (
-    <div className="App">
-      <Skills/>
+    <div >
+       {/* <Skills/>
       <Cards/>
       <Testimonials/>
-      <Banner/>
+      <Banner/> */}
+      <Navbar/> 
+      <Industry/>
+      
     </div>
   );
 }

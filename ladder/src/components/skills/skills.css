@@ -10,8 +10,8 @@
 
 .button-container {
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  gap: 40px;
+  grid-template-columns: repeat(4, auto); 
+  gap: 20px; 
   justify-content: flex-start;
   margin-top: 50px; 
   margin-left: 1.8%;
@@ -20,13 +20,12 @@
 .sbtn {
   background-color: black;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 15px; 
   border: none;
   border-radius: 20px;
   cursor: pointer;
   font-size: 12px;
   transition: background-color 0.3s ease;
-  min-width: 180px;
   text-align: center;
 }
 
@@ -41,30 +40,30 @@
 /* Responsive adjustments */
 @media (max-width: 1024px) {
   .button-container {
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, auto); 
   }
 }
 
 @media (max-width: 768px) {
   .button-container {
-    grid-template-columns: repeat(2, auto);
-    column-gap: 20px;
-    row-gap: 12px;
+    grid-template-columns: repeat(2, auto); 
+    column-gap: 15px; 
+    row-gap: 10px;
   }
 
   .sbtn {
-    min-width: 100px;
+    padding: 8px 12px; 
   }
 }
 
 @media (max-width: 480px) {
   .button-container {
-    grid-template-columns: repeat(1, auto);
-    column-gap: 15px;
-    row-gap: 10px;
+    grid-template-columns: repeat(1, auto); 
+    column-gap: 10px;
+    row-gap: 8px;
   }
 
   .sbtn {
-    min-width: 90px;
+    padding: 6px 10px; 
   }
 }
